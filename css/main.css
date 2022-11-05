@@ -60,7 +60,6 @@ a {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid yellowgreen;
 }
 
 @media screen and (min-width: 480px) {
@@ -268,6 +267,13 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 582px;
+  }
+}
+
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -368,10 +374,6 @@ a {
   border-radius: 2px;
   cursor: pointer;
   margin-right: 9px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -390,8 +392,8 @@ a {
 
 .modal-form-chekbox-wraper-policy {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -413,6 +415,14 @@ a {
   border: transparent;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form-chekbox-wraper-policy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+  }
 }
 
 .btn-modal {
@@ -616,7 +626,7 @@ a {
 
 .hero {
   background-color: #C4C4C4;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   background-size: 480px 400px;
   text-align: center;
   padding-top: 118px;
@@ -630,13 +640,13 @@ a {
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero@2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-tab.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tab.jpg);
     background-size: 768px 400px;
     max-width: 768px;
   }
@@ -644,13 +654,13 @@ a {
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-tab@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tab@2x.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-desk.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-desk.jpg);
     background-size: 1600px 600px;
     max-width: 1600px;
     padding-top: 200px;
@@ -665,7 +675,7 @@ a {
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-desk@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-desk@2x.jpg);
   }
 }
 
@@ -929,6 +939,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   padding-left: 16px;
   width: 100%;
   height: 50px;
@@ -963,7 +974,6 @@ a {
   }
   .form-email-input {
     width: 450px;
-    margin-bottom: 20px;
   }
   .social {
     margin-bottom: 0;
@@ -1036,7 +1046,8 @@ a {
 }
 
 .card-link {
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1112,11 +1123,13 @@ a {
 }
 
 .card {
+  display: flex;
   width: 450px;
   /* flex-basis: calc((100% - 60px)/3);----------------------Вроде как правильнее для Flex єлементов */
 }
 
 .border {
+  flex-grow: 1;
   border: 1px solid #EEEEEE;
   border-top: none;
   padding: 20px 24px 20px 24px;
@@ -1134,5 +1147,28 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   /* overflow: auto;--------------------------------------Skrol!! */
+}
+
+@media screen and (min-width: 768px) {
+  .list-filtr {
+    width: 100%;
+    flex-wrap: nowrap;
+    column-gap: 8px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .card {
+    width: 354px;
+  }
+  .clist-ard {
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    width: calc((100% - 60px)/3);
+    /* flex-basis: calc((100% - 60px)/3);----------------------Вроде как правильнее для Flex єлементов */
+  }
 }
 /*# sourceMappingURL=main.css.map */

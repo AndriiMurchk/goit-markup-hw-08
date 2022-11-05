@@ -92,6 +92,7 @@
 
    &::placeholder { 
         color: rgba(117, 117, 117, 0.5);
+       
     
     }
 
@@ -119,11 +120,7 @@
     cursor: pointer;
     margin-right: 9px;
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-
+    
     color: #757575;
 
     .modal-form-checkbox:checked + & {
@@ -143,8 +140,8 @@
 
 .modal-form-chekbox-wraper-policy {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 
     color:var(--primary-text-color);
@@ -169,4 +166,15 @@
     text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+@media screen and (min-width: 1200px) {
+ 
+    .modal-form-chekbox-wraper-policy {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+}
+
+
 
