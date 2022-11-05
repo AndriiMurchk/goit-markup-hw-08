@@ -1,79 +1,84 @@
 
 
-// .form-email {
+.form-email {
     
-//     margin-left: auto;   
-// }
+    margin-left: auto;   
+}
 
-// .form-email-title {
-//     margin-bottom: 20px;
+.form-email-title {
+    text-align: center;
+    margin-bottom: 20px;
 
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.15;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     
-//     color:var(--primary-white-color);
-// }
+    color:var(--primary-white-color);
+}
 
-// .form-email-input {
+.form-email-input {
 
-//     width: 358px;
-//     height: 50px;
-//     padding-left: 16px;
-//     margin-right: 12px;
-//     border: 1px solid rgba(255, 255, 255, 0.3);
-//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-//     border-radius: 4px;
-//     background-color:#2F303A;
-//     color:var(--primary-white-color);
+    width: 450px;
+    height: 50px;
+    padding-left: 16px;
+    // margin-right: 12px;
+    margin-bottom: 20px;
 
-//     &::placeholder { 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color:#2F303A;
+    color:var(--primary-white-color);
+
+    &::placeholder { 
     
-//         font-weight: 400;
-//         font-size: 16px;
-//         line-height: 1.25;
-//         display: flex;
-//         align-items: center;
-//         letter-spacing: 0.03em;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
         
-//         color: rgba(255, 255, 255, 0.6);
-//     }
+        color: rgba(255, 255, 255, 0.6);
+    }
 
-//     &:focus {
-//         outline: none;
-//         border-color: var(--primary-white-color);
-//     }
-// }
+    &:focus {
+        outline: none;
+        border-color: var(--primary-white-color);
+    }
+}
 
-// .form-submit {
+.form-submit {
 
-//     display: flex;
-//     align-items: center;
-//     padding: 10px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
-//     padding-top: 10px;
-//     padding-bottom: 10px;
+    min-width:200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 1.9;
-//     letter-spacing: 0.06em;
-//     text-align: start;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: start;
 
-//     color: #FFFFFF;
-//     background-color: var(--accent-color);
+    color: #FFFFFF;
+    background-color: var(--accent-color);
     
 
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//     border-radius: 4px;
-//     border: none;    
-// }
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;    
+}
 
-// .form-submit-icon {
-//     margin-left: 10px;
-// }
+.form-submit-icon {
+    margin-left: 10px;
+}
 
 // .form-email-wraper {
 //     display: flex;

@@ -16,14 +16,26 @@
 
     <header class="header-page">
         <div class="container header-list">
-            <nav class="main-nav">
-                <a href="./index.html" class="main-nav__logo-header"><span class="main-nav__logo-accent">Web</span>Studio</a>
-                <ul class="head-list">
-                    <li class="head-list__item" ><a href="./index.html" class="head-list__site-nav ">Студія</a></li>
-                    <li class="head-list__item" ><a href="./portfolio.html" class="head-list__site-nav head-list__site-nav--current">Портфоліо</a></li>
-                    <li class="head-list__item" ><a href="" class="head-list__site-nav">Контакти</a></li>
-                </ul>
-            </nav>
+            <a href="./index.html" class="main-nav__logo-header"><span class="logo-accent">Web</span>Studio</a>
+
+            <button class="header-page__button" type="button">
+                    <svg class="button__burger-icon" width="24px" height="16px">
+                        <use href="./images/icons.svg#icon-burger"> </use>
+            </button>
+            
+            <div class="menu-list">
+                <button type="button" class="btn-close-menu">
+                    <svg class="close-menu-icon" width="40px" height="40px">
+                        <use href="./images/icons.svg#icon-close"> </use>
+                    </svg>
+                </button>
+                <nav class="main-nav">
+                    <ul class="head-list">
+                        <li class="head-list__item" ><a href="./index.html" class="head-list__site-nav head-list__site-nav--current">Студія</a></li>
+                        <li class="head-list__item" ><a href="./portfolio.html" class="head-list__site-nav">Портфоліо</a></li>
+                        <li class="head-list__item" ><a href="" class="head-list__site-nav">Контакти</a></li>
+                    </ul>
+                </nav>
                 <ul class="contact">
                     <li class="contact__list">
                         <a href="mailto:info@devstudio.com" class="contact__nav">
@@ -37,11 +49,18 @@
                                 <use href="./images/icons.svg#icon-smartphone"></use>
                             </svg> 
                             +38 096 111 11 11</a>
-                        </li>
+                    </li>
                 </ul>  
+                <ul class="menu_social-list">
+                    <li><a class="menu_link" href="">Instagram</a></li>
+                    <li><a class="menu_link" href="">Twitter</a></li>
+                    <li><a class="menu_link" href="">Facebook</a></li>
+                    <li><a class="menu_link" href="">LinkedIn</a></li>
+                </ul>
+            </div>
+            
         </div>
     </header>
-
 <main class="main-port">
     <section class="section">
         <div class="container filtr-marg">
@@ -180,7 +199,7 @@
 </main>
 
 
-<footer class="footer-page">
+<footer class="footer-page section">
     <div class="container container-footer">
        
         <div class="footer-nav">

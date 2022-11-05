@@ -75,10 +75,18 @@
 
 
 .list-filtr {
+
+    width: 326px;
+    
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    column-gap:8px;   
+
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 15px;
+    
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  
 }
 
 .list-card {
@@ -88,8 +96,8 @@
 }
 
 .card{
-    
-    width: calc((100% - 60px)/3);
+    width:450px;
+    // width: calc((100% - 60px)/3);
     /* flex-basis: calc((100% - 60px)/3);----------------------Вроде как правильнее для Flex єлементов */   
 }
 

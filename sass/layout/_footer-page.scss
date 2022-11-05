@@ -1,6 +1,13 @@
-.logo-footer{
+.footer-nav {
+    display: block;
+    margin-bottom: 60px;
 
-    display:inline-block;
+}
+
+
+.logo-footer {
+    display: block;
+    text-align: center;
     color:var(--primary-white-color);
     font-family:raleway, sans-serif;
     @include font($fs:26px, $lh:31px);
@@ -10,41 +17,47 @@
 }
 
 
-// .site-nav-foot {
-//     color:rgba(255, 255, 255, 0.6);
-//     font-size: 14px;
-//     line-height: 1.7;
-//     letter-spacing: 0.03em;
-//     text-decoration: none;
-//     font-style: normal;
+.site-nav-foot {
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
 
-//     transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);  
+    transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);  
     
-//     &:hover,
-//     &:focus {
-//     color:var(--accent-color);
-//     }
-// }
+    &:hover,
+    &:focus {
+    color:var(--accent-color);
+    }
+}
 
-// .adr {
-//     color:var(--primary-white-color);
-//     font-size: 14px;
-//     line-height: 1.7;
-//     letter-spacing: 0.03em;
-//     text-decoration: none;
-//     font-style: normal;
+.adr {
+    color:var(--primary-white-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
 
-//     transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 
-//     &:hover,
-//     &:focus {
-//     color:var(--accent-color);
-//     }
-// }
+    &:hover,
+    &:focus {
+    color:var(--accent-color);
+    }
+}
 
 .footer-page {
     background-color: #2F303A;
 
+}
+
+.adr-foot-list {
+    
+    text-align: center;
+   
 }
 
 // .adr-foot-list-item:not(:last-child) {
@@ -57,19 +70,21 @@
 //     align-items:baseline;
 // }
 
-// .social {
-//     margin-left: 70px;   
-// }
+.social {
+    margin-bottom: 60px; 
+}
 
-// .social-title {
-//     font-family: 'Roboto';
-//     font-style: normal;
-//     @include font;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-//     margin-bottom: 20px;
+.social-title {
+    text-align: center;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    @include font;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 
-//     color: #FFFFFF;
-// }
+    color: #FFFFFF;
+}
 
 

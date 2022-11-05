@@ -1,17 +1,19 @@
 
-// .modal {
+.modal {
 
-//     position:absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%) scale(1);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
 
-//     width: 528px;
-//     height: 582px;
-//     padding: 40px;
+    // width: 528px;
+    // height: 582px;
+    width: 450px;
+    height: 609px;
+    padding: 40px;
 
-//     background-color: var(--primary-white-color);
+    background-color: var(--primary-white-color);
 
-//     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
-// }
+}
