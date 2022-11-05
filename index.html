@@ -27,13 +27,13 @@
             <ul class="contact">
                 <li class="contact__list">
                     <a href="mailto:info@devstudio.com" class="contact__nav">
-                        <svg class="contact__icon" width="16px" height="12px">
+                        <svg class="contact__icon-mail" width="14px" height="10px">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a></li>
                 <li class="contact__list">
                     <a href="tel:+380961111111" class="contact__nav">
-                        <svg class="contact__icon" width="16px" height="12px">
+                        <svg class="contact__icon-phone" width="10px" height="14px">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg> 
                     +38 096 111 11 11</a>
@@ -70,7 +70,7 @@
             </div>
         </div>
     </header>
-<!-- 
+
 <main>
     <section class="hero section">
        <div class="container">
@@ -85,7 +85,7 @@
         <ul class="fea-list">
             <li class="fea-list__item">
                 <div class="fea-list__feature-icon-container">
-                    <svg class="fea-list__feature-icon" width="450px" height="120px">
+                    <svg class="fea-list__feature-icon" width="70" height="70">
                         <use href="./images/icons.svg#icon-antenna"></use>
                     </svg>
                 </div>
@@ -94,7 +94,7 @@
             </li>
             <li class="fea-list__item">
                 <div class="fea-list__feature-icon-container">
-                    <svg class="fea-list__feature-icon" width="450px" height="120px">
+                    <svg class="fea-list__feature-icon" width="70" height="">
                         <use href="./images/icons.svg#icon-clock"></use>
                     </svg>
                 </div>
@@ -103,7 +103,7 @@
             </li>
             <li class="fea-list__item">
                 <div class="fea-list__feature-icon-container">
-                    <svg class="fea-list__feature-icon" width="450px" height="120px">
+                    <svg class="fea-list__feature-icon" width="70" height="">
                         <use href="./images/icons.svg#icon-diagram"></use>
                     </svg>
                 </div>
@@ -112,7 +112,7 @@
             </li>
             <li class="fea-list__item">
                 <div class="fea-list__feature-icon-container">
-                    <svg class="fea-list__feature-icon" width="450px" height="120px">
+                    <svg class="fea-list__feature-icon" width="70" height="">
                         <use href="./images/icons.svg#icon-astronaut"></use>
                     </svg>
                 </div>
@@ -154,7 +154,37 @@
             <h2 class="title-action">Наша команда</h2>
         <ul class="profession-list">
             <li class="profession-list__card"> 
-                <img class="profession-list__image-prof" src="./images/img1.jpg" alt="Ігор" width="450">
+                <picture>
+                    <source 
+                        srcset="./images/1-desk.webp 1x, ./images/1-desk@2x.webp 2x"
+                        media="(min-width: 1200px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/1-desk.jpg 1x, ./images/1-desk@2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                    />
+                    <source 
+                        srcset="./images/1-tab.webp 1x, ./images/1-tab@2x.webp 2x"
+                        media="(min-width: 768px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/1-tab.jpg 1x, ./images/1-tab@2x.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="./images/1-mobile.webp 1x, ./images/1-mobile@2x.webp 2x"
+                        media="(min-width: 280px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/1-mobile.jpg 1x, ./images/1-mobile@2x.jpg 2x"
+                        media="(min-width: 280px)"
+                    />
+                
+                    <img src="./images/1-mobile.jpg" alt="Ігор" class="staf__image">
+                </picture>
                 <div class="profession-list__item">
                     <h3 class="profession-list__name">Ігор Дем'яненко</h3>
                     <p lang="en" class="profession-list__profession">Product Designer</p>
@@ -180,7 +210,37 @@
                 </div>
             </li>   
             <li class="profession-list__card"> 
-                <img class="profession-list__image-prof" src="./images/img2.jpg" alt="Ольга" width="450">
+                <picture>
+                    <source 
+                        srcset="./images/2-desk.webp 1x, ./images/2-desk@2x.webp 2x"
+                        media="(min-width: 1200px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/2-desk.jpg 1x, ./images/2-desk@2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                    />
+                    <source 
+                        srcset="./images/2-tab.webp 1x, ./images/2-tab@2x.webp 2x"
+                        media="(min-width: 768px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/2-tab.jpg 1x, ./images/2-tab@2x.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="./images/2-mobile.webp 1x, ./images/2-mobile@2x.webp 2x"
+                        media="(min-width: 280px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/2-mobile.jpg 1x, ./images/2-mobile@2x.jpg 2x"
+                        media="(min-width: 280px)"
+                    />
+          
+                    <img src="./images/2-mobile.jpg" alt="Ольга" class="staf__image">
+                </picture>
                 <div class="profession-list__item">
                     <h3 class="profession-list__name">Ольга Рєпіна</h3>
                     <p lang="en" class="profession-list__profession">Frontend Developer</p>
@@ -205,7 +265,37 @@
                 </div>
            </li>
             <li class="profession-list__card"> 
-                <img class="profession-list__image-prof" src="./images/img3.jpg" alt="Микола" width="450">
+                <picture>
+                    <source 
+                        srcset="./images/3-desk.webp 1x, ./images/3-desk@2x.webp 2x"
+                        media="(min-width: 1200px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/3-desk.jpg 1x, ./images/3-desk@2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                    />
+                    <source 
+                        srcset="./images/3-tab.webp 1x, ./images/3-tab@2x.webp 2x"
+                        media="(min-width: 768px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/3-tab.jpg 1x, ./images/3-tab@2x.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="./images/3-mobile.webp 1x, ./images/3-mobile@2x.webp 2x"
+                        media="(min-width: 280px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/3-mobile.jpg 1x, ./images/3-mobile@2x.jpg 2x"
+                        media="(min-width: 280px)"
+                    />
+               
+                    <img src="./images/3-mobile.jpg" alt="Микола" class="staf__image">
+                </picture>
                 <div class="profession-list__item">
                     <h3 class="profession-list__name">Микола Тарасов</h3>
                     <p lang="en" class="profession-list__profession">Marketing</p>
@@ -230,7 +320,37 @@
                 </div>
             </li>
             <li class="profession-list__card"> 
-                <img class="profession-list__image-prof" src="./images/img4.jpg" alt="Михайло" width="450">
+                <picture>
+                    <source 
+                        srcset="./images/4-desk.webp 1x, ./images/4-desk@2x.webp 2x"
+                        media="(min-width: 1200px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/4-desk.jpg 1x, ./images/4-desk@2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                    />
+                    <source 
+                        srcset="./images/4-tab.webp 1x, ./images/4-tab@2x.webp 2x"
+                        media="(min-width: 768px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/4-tab.jpg 1x, ./images/4-tab@2x.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="./images/4-mobile.webp 1x, ./images/4-mobile@2x.webp 2x"
+                        media="(min-width: 280px)"
+                        type="image/webp"
+                    />
+                    <source 
+                        srcset="./images/4-mobile.jpg 1x, ./images/4-mobile@2x.jpg 2x"
+                        media="(min-width: 280px)"
+                    />
+                    
+                    <img src="./images/4-mobile.jpg" alt="Михайло" class="staf__image">
+                </picture>
                 <div class="profession-list__item">
                     <h3 class="profession-list__name">Михайло Єрмаков</h3>
                     <p lang="en" class="profession-list__profession">UI Designer</p>
@@ -256,7 +376,7 @@
             </li>
         </ul>
         </div>
-    </section>
+    </section> 
 
     <section class="section">
         <div class="container">
@@ -293,7 +413,7 @@
 
 <footer class="footer-page section">
     <div class="container container-footer">
-       
+       <div class="footer-page__wrap">
         <div class="footer-nav">
             <a  href="./index.html" class="logo-footer"><span class="logo-accent">Web</span>Studio</a>
         <address>
@@ -341,6 +461,8 @@
                 </li>
             </ul>
         </div>
+       </div>
+        
         <div class="form-email">
             <p class="form-email-title">підпишіться на розсилку</p>
             <div class="form-email-wraper">
@@ -439,7 +561,7 @@
     </div>
     
 </div>
-<!--  -->
+
 <script src="./js/mobile-menu.js"></script>
 <script src="./js/modal.js"></script>
 

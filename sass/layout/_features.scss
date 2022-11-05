@@ -1,25 +1,19 @@
 
 
-// .fea-list {
-//     margin-top: 0px;
-//     margin-bottom: 0px;
-//     // display: flex;
-//     gap:30px;
-// }
-
 .fea-list__item {
-    // flex-basis: 270px;
+   
     margin-bottom: 30px;
 } 
 
 .fea-list__feature-icon-container{ 
-    // display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;          
 }
+
 
 .fea-list__title {
     text-align: center;
@@ -46,6 +40,29 @@
 
 
 
+@media screen and (min-width: 768px) {
+    .fea-list {
 
+        display: flex;
+        flex-wrap: wrap;
+        gap:30px;
+    }
+
+    .fea-list__item {
+       flex-basis: 354px;
+       margin-bottom: 0px;
+
+       
+    } 
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .fea-list__item {
+       flex-basis: 270px;      
+       
+    } 
+}
 
 

@@ -1,8 +1,10 @@
 
 .list-partners {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap:30px;
+
 }
 
 .list-partners-link {
@@ -16,8 +18,7 @@
 }
 
 .list-partners-link {
-    // height: 92px;
-    // width: 170px;
+
     width: 210px;
     height: 92px;
     border:1px solid #AFB1B8;
@@ -29,7 +30,20 @@
     &:focus {
     border:1px solid var(--accent-color);
     fill:var(--accent-color);
-}
+    }
 
 }
+
+
+@media screen and (min-width: 768px) {
+    .list-partners-link {
+        width: 226px;
+    }
+ }
+ 
+ @media screen and (min-width: 1200px) {
+    .list-partners-link {
+        width: 170px;
+    }
+ }
 

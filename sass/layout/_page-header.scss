@@ -131,10 +131,13 @@
         }
     }
 
-    .contact__icon {
-    margin-right: 8px;
+    .contact__icon-phone,  
+        .contact__icon-mail {
+            margin-right: 8px;
+    } 
+
    
-    }
+    
 }
 
 
@@ -157,10 +160,23 @@
  
      }
 
-    .contact__icon {
+     .contact__icon-mail {
+        width: 16px;
+        height: 12px;
         margin-right: 10px;
+     }
+
+     .contact__icon-phone {
+        width: 10px;
+        height: 16px;
+        margin-right: 10px;
+     }
+
+
+        
+
      
-    }
+    
 }
 
 

@@ -18,37 +18,7 @@
     color:var(--primary-white-color);
 }
 
-.form-email-input {
 
-    width: 450px;
-    height: 50px;
-    padding-left: 16px;
-    // margin-right: 12px;
-    margin-bottom: 20px;
-
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color:#2F303A;
-    color:var(--primary-white-color);
-
-    &::placeholder { 
-    
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.25;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        
-        color: rgba(255, 255, 255, 0.6);
-    }
-
-    &:focus {
-        outline: none;
-        border-color: var(--primary-white-color);
-    }
-}
 
 .form-submit {
 
