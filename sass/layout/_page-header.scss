@@ -4,6 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
    
 
 }
@@ -44,15 +47,15 @@
         
     }
 
+    .header-list {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
 
 
     .head-list {
         column-gap: 50px; 
         height: 100%;
-        padding-top: 32px;
-        padding-bottom: 32px;
-       
-
     }
 
     .head-list__item {
@@ -133,8 +136,8 @@
     }
 
     .contact__icon-phone,  
-        .contact__icon-mail {
-            margin-right: 8px;
+        .contact__icon-mail {           
+         margin-right: 8px;
     } 
 
    
@@ -144,6 +147,11 @@
 
 
 @media screen and (min-width:1200px) {
+
+    .header-list {
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
     
     .main-nav__logo-header{
         font-size: 26px;
