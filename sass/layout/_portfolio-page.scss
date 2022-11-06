@@ -77,7 +77,7 @@
 
 .list-filtr {
 
-    width: 326px;
+    max-width: 326px;
     
     display: flex;
 
@@ -132,7 +132,7 @@
 @media screen and (min-width: 768px) {
     .list-filtr {
 
-        width: 100%;
+        max-width: 100%;
         
         flex-wrap:nowrap;
         column-gap: 8px;

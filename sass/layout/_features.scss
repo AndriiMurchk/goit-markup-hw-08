@@ -1,9 +1,7 @@
 
-
-.fea-list__item {
-   
-    margin-bottom: 30px;
-} 
+.fea-list__item:not(:last-child) {
+    margin-bottom:30px;
+}
 
 .fea-list__feature-icon-container{ 
     display: flex;
